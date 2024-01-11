@@ -1,0 +1,19 @@
+git status
+git init
+git add .
+git add filename
+git commit -m "message"
+git checkout -b branchName (to create branch)
+git checkout branchName (to switch branch)
+git branch (to get branch list - requires atleast 1 commit)
+git reset --soft HEAD~1 (to revert the commit from local repo)
+git reset --hard HEAD~1 (to revert commit from local repo as well as from file\folder)
+git stash (which allow to keep uncommented file)
+git remote add origin 
+git push -u origin main
+git log (displays committed snapshots)
+git show commitID (give info of particular commit)
+
+
+multiline commit : git commit or git commit -v
+

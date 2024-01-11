@@ -1,0 +1,11 @@
+Git command to generate SSH KEY
+
+step1) ssh-keygen -t rsa -b 4096 -C "rutikgagare091971@gmail.com"
+step2) cd [ssh_path] (then ls to check the generated key)
+step3) cat id_rsa.pub (to get the public key)
+step4) copy public key and add it in github as new ssh key
+step5) git add remote origin (use ssh instead of https)
+
+linux command
+rm filename (to remove particular file)
+
