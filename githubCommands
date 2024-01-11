@@ -8,12 +8,23 @@ git checkout branchName (to switch branch)
 git branch (to get branch list - requires atleast 1 commit)
 git reset --soft HEAD~1 (to revert the commit from local repo)
 git reset --hard HEAD~1 (to revert commit from local repo as well as from file\folder)
-git stash (which allow to keep uncommented file)
+git stash (which allow to keep uncommited file)
 git remote add origin 
 git push -u origin main
 git log (displays committed snapshots)
 git show commitID (give info of particular commit)
 
+// Deleting local branch
+git branch -d 'branchName' (use to delete a branch which is merged)
+git branch -D 'branchname' (use to perform forceful deletion can delete branch which are not merged)
+
+// deleting remote branch
+git push origin -d 'branchName'
+git push origin -D 'branchName'
 
 multiline commit : git commit or git commit -v
+changing commit message : git commit --amend
+
+
+
 
